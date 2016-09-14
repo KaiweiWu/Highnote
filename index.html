@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Highnote</title>
+        <!--Boostrap's CSS-->
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+        <link rel="stylesheet" href="./css/fakeLoader.css">
+
+        <link rel="stylesheet" href="./unslider-master/dist/css/unslider.css">
+        <link rel="stylesheet" href="./unslider-master/dist/css/unslider-dots.css">
+        <link rel="stylesheet" href="./unslider-master/src/scss/unslider.css">
+
+        <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+	    <meta property="og:type"          content="Website" />
+	    <meta property="og:title"         content="Highnote" />
+	    <meta property="og:description"   content="Listen to music!" />
+	    <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+        
+    </head>
+    <body>
+        <div id="fakeloader"></div>
+
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//https:connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1211759135551995";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+        <div class="container" id="page-container">
+            <h1 id="app-name"> <span class="glyphicon glyphicon-headphones"></span> Highnote </h1>
+
+            <h2 id="page-header"> It starts here </h2>
+
+            <div id ="musicplayer"></div>
+            
+            <!--Play Button-->
+            <button class="circle" id="circle" onclick="myFunction()" style= "margin-top: 5px">
+                        <div class="circle_inner">
+            </button>
+
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/share-button#configurator" data-layout="box_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" 
+            target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2Fshare-button%23configurator&amp;src=sdkpreparse">FB Share</a></div>
+            
+        </div>
+
+        <!--Lyrics collection-->
+        <div class="container">
+            
+            <div class="vertical-slider">
+	            <ul>
+		            <li class= images><img src="cat1.jpg" alt="Cat1"/></li>
+                    <li class= images><img src="cat2.jpg" alt="Cat2"/></li>
+		            <li class= images><img src="cat3.jpg" alt="Cat3"/></li>
+	            </ul>
+            </div>
+
+
+            <h3 id="Lyrics"></h3>
+
+            <p id="Animals">
+                Baby I'm preying on you tonight<br>
+                Hunt you down eat you alive<br>
+		        Just like animals<br>
+                Animals...
+            </p>
+            <p id="Goodfeeling">Oh, oh, oh, oh, oh, sometimes I get a good feeling, yeah<br>
+                I get a feeling that I never never never never had before, no no<br>
+                I get a good feeling, yeah<br>
+                Oh oh, sometimes I get a good feeling, yeah...
+            </p>
+            <p id="King">You're alone, you're on your own, so what?<br>
+                Have you gone blind?<br>
+                Have you forgotten what you have and what is yours?<br>
+                Glass half empty, glass half full...
+            </p>
+            <p id="Ontopoftheworld">If you love somebody<br>
+                Better tell them while they're here cause<br>
+                They just may run away from you<br>
+                You'll never know quite when, well...
+            </p>
+            <p id="Howtosavealife">Step one, you say we need to talk<br>
+                He walks, you say sit down, it's just a talk<br>
+                He smiles politely back at you<br>
+                You stare politely right on through...
+            </p>
+            <p id="StayHigh">Uh-uh uh-uh uh-uh<br>
+                I eat my dinner in my bathtub<br>
+                Then I go to sex clubs<br>
+                Watching freaky people getting it on...
+            </p>
+            <p id="Whentheycomeforme">I am not a pattern to be followed<br>
+                The pill that I'm on is a tough one to swallow<br>
+                I'm not a criminal, not a role model<br>
+                Not a born leader, I'm a tough act to follow...
+            </p>
+            <p id="OneStepCloser">I cannot take this anymore<br>
+                I'm saying everything I've said before<br>
+                All these words they make no sense<br>
+                I find bliss in ignorance...
+            </p>
+            <p id="SomewhereIbelong">I had nothing to say<br>
+                And I get lost in the nothingness inside of me<br>
+                (I was confused)<br>
+                And I let it all out to find...
+            </p>
+
+        </div>
+
+        <!--jQuery Script-->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Bootstrap Script-->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="./js/unslider.js"></script>
+        <script src="./js/fakeLoader.min.js"></script>
+
+        <!--Custom Script-->
+        <script src="./js/main.js"></script>
+
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
+        
+
+        
+
+    </body>
+</html>

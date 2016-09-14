@@ -1,0 +1,136 @@
+html { 
+    background: url("http://cdn.wallpapersafari.com/18/35/Awx8cQ.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    color: white;
+    background-color: transparent;
+}
+
+h1#app-name {
+    color: black;
+    font-size:84px;
+}
+
+
+img#selected-img{
+    width:150px;
+    height:150px;
+    padding:20px;
+    display:none;
+    margin: 0 auto;
+}
+
+h2#page-header {
+    color: black;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+body #page-container {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input#my-file-selector {
+    display:none;
+}
+
+* { margin:0; padding:0 }
+
+.circle{
+    background: black;
+    border-radius: 50%;
+    height: 75px;
+    position: relative;
+    left: 1%;
+    top: 50%;
+    width: 75px;
+    margin: -25px 0 0 -25px;
+}
+.circle_inner{
+    position: relative;
+    height: 100%;
+}
+.circle_inner:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -7px;
+}
+
+.button {
+    background-color: palevioletred; color: red; /* Gray */ 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+h4#track-name {
+    display:none;
+}
+
+p#Animals {
+    display:none;
+}
+
+p#Goodfeeling {
+    display:none;
+}
+
+p#King {
+    display:none;
+}
+
+p#Ontopoftheworld {
+    display:none;
+}
+
+p#Howtosavealife {
+    display:none;
+}
+
+p#StayHigh {
+    display:none;
+}
+
+p#Whentheycomeforme {
+    display:none;
+}
+
+p#OneStepCloser {
+    display:none;
+}
+
+p#SomewhereIbelong {
+    display:none;
+}
+
+.fb-share-button {
+    color:black;
+}
+
+.images {
+    height: 200px;
+    width: 600px;
+}
